@@ -79,9 +79,22 @@ nav.scrolled,check {
     padding-top: 13%;
 }
 
+.robocup-built {
+    background: linear-gradient(to right, #844EEA, #5527F5, #041069) !important; 
+    font-family: Lastica;
+    color: rgb(228, 220, 220);
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+#robocup-built-text {
+    padding-top: 13%;
+}
+
 .middle {
     position: absolute;
-    top: 22.5%;
+    top: 720px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -96,7 +109,7 @@ nav.scrolled,check {
     width: 8px;
     height: 8px;
     position: absolute;
-    top: 22%;
+    top: 720px;
     background: #333;
     left: 50%;
     transform: translateX(-50%);
@@ -107,11 +120,11 @@ nav.scrolled,check {
 @keyframes mouse {
     from {
         opacity: 1;
-        top: 22.5%;
+        top: 20px;
     }
     to {
         opacity: 0;
-        top: 65%;
+        top: 60px;
     }
 }
 
@@ -213,4 +226,10 @@ footer {
 
 .last-service-row {
     padding-bottom: 4rem;;
+}
+
+
+#anushka-logo {
+    width: 50%;
+    height: auto;
 }
