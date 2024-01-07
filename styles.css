@@ -47,7 +47,7 @@ nav {
 nav.scrolled,check {
     /* transition: background 1s ease-in-out; */
     background: linear-gradient(to right, #844EEA, #5527F5, #041069) !important;
-    opacity: 0.95;
+    opacity: 1;
 }
 
 /* #home {
@@ -59,3 +59,20 @@ nav.scrolled,check {
 #other {
     background-color: blue;
 } */
+
+.team-meet {
+    background: linear-gradient(to right, #844EEA, #5527F5, #041069) !important; 
+    font-family: Lastica;
+    color: rgb(228, 220, 220);
+    font-size: 5rem;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+}
+#team-meet-text {
+    padding-top: 13%;
+}
+
+.team-members {
+    background: radial-gradient(circle at 50% 50%, #131FA8, #5527F5, #041069);;
+}
