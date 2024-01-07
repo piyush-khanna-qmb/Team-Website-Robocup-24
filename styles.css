@@ -3,6 +3,12 @@
     font-family: Lastica;
     src: url(resources/fonts/Lastica.ttf);
 }
+
+@font-face {
+    font-family: Interphase;
+    src: url(resources/fonts/Interphase.ttf);
+}
+
 .navbar-nav {
     flex-direction: row;
 }
@@ -73,6 +79,138 @@ nav.scrolled,check {
     padding-top: 13%;
 }
 
-.team-members {
-    background: radial-gradient(circle at 50% 50%, #131FA8, #5527F5, #041069);;
+.middle {
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mouse {
+    width: 40px;
+    height: 70px;
+    border: 2px solid #333;
+    border-radius: 60px;
+}
+.mouse::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 22%;
+    background: #333;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 2s infinite;
+}
+@keyframes mouse {
+    from {
+        opacity: 1;
+        top: 22.5%;
+    }
+    to {
+        opacity: 0;
+        top: 65%;
+    }
+}
+
+.team-together {
+    background: radial-gradient(circle at 50% 50%, #131FA8, #5527F5, #041069);
+}
+
+.team-together h2 {
+    font-family: Lastica;
+    color: rgb(228, 220, 220);
+    font-size: 3rem;
+    text-align: center;
+    height: 50vh;
+    padding-top: 9%;
+}
+
+.skills {
+    padding-bottom: 3rem;
+}
+
+.skill-row {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 10rem;
+}
+
+.skillpic:hover {
+    transform: scale(2);
+    transition-duration: 350ms;
+}
+
+#Services {
+    padding: 3rem 2rem 0rem;
+    text-align: center;
+    background-size: contain;
+    color: #5527F5;
+    font-family: Interphase;
+}
+
+#Services h3 {
+    color: #041069;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+#Services p {
+    font-weight: 700;
+}
+
+#veniPic {
+    max-width: 15%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;
+}
+
+footer {
+    text-align: center;
+    font-family: Interphase;
+    padding: 1rem;
+}
+
+#pindPic {
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#kumbhDaanPic {
+    max-width: 20%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#kumbhMelaPic {
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+#gangaAartiPic {
+    max-width: 15%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 100%;
+}
+
+#pushpanjaliPic {
+    max-width: 25%;
+    border-radius: 100%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.last-service-row {
+    padding-bottom: 4rem;;
 }
