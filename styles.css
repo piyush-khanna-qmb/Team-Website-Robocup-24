@@ -233,3 +233,36 @@ footer {
     width: 50%;
     height: auto;
 }
+
+
+.about-robocup {
+    padding: 5rem 2rem 0rem;
+    text-align: center;
+    background-size: contain;
+    color: #5527F5;
+    font-family: Interphase;
+}
+
+.about-robocup h2 {
+    color: #041069;
+    font-weight: 900;
+    font-size: 2.5rem;
+    /* margin-bottom: 3rem; */
+    font-family: Lastica;
+}
+.about-robocup p {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+#robocup-image {
+    width: 26rem;
+    height: auto;
+    border-radius: 30%;
+    margin-right: 7rem;
+}
+
+.patla {
+    padding: 2rem 12rem;
+    text-align: left;
+}
