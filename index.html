@@ -20,10 +20,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#carouselExampleIndicators" data-slide-to="0" onclick="makeHome(0)">Home</a>
+                        <a class="nav-link" href="#carouselExampleIndicators" data-slide-to="0" onclick="makeSticky()">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#carouselExampleIndicators" data-slide-to="1" onclick="makeSticky()">Team</a>
+                        <a class="nav-link" href="#carouselExampleIndicators" data-slide-to="1" onclick="makeHome(0)">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#carouselExampleIndicators" data-slide-to="2" onclick="makeSticky()">RoboCup</a>
@@ -33,19 +33,6 @@
         </nav>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div id= "home" class="d-block w-100">
-
-                        <section class="home-entry">
-                            <video autoplay loop muted playsinline id="home-entry-video" src="resources/home-entry.mp4"></video>
-                        </section>
-
-                        <section class="home-features">
-                            <!--! To be continued  -->
-                        </section>
-
-                    </div>
-                </div>
 
                 <div class="carousel-item">
                     <div id="team" class="d-block w-100 shift-down">
@@ -132,6 +119,20 @@
                     </div>
                 </div>
 
+                <div class="carousel-item active">
+                    <div id= "home" class="d-block w-100">
+
+                        <section class="home-entry">
+                            <video autoplay loop muted playsinline id="home-entry-video" src="resources/home-entry.mp4"></video>
+                        </section>
+
+                        <section class="home-features">
+                            <!--! To be continued  -->
+                        </section>
+
+                    </div>
+                </div>
+
                 <div class="carousel-item">
                     <div id="other" class="d-block w-100 shift-down">
                         
@@ -150,7 +151,7 @@
                             <table>
                                 <tr>
                                     <td>
-                                        <a href="https://athome.robocup.org/"><h2>About RoboCup 24'</h2></a>
+                                        <a href="https://athome.robocup.org/"><h2>About RoboCup '24</h2></a>
                                         <div class="patla">
                                             <p>
                                                 RoboCup is an annual international robotics competition founded in 1996 by a group of university professors (including Hiroaki Kitano, Manuela M. Veloso, and Minoru Asada). The aim of the competition is to promote robotics and AI research by offering a publicly appealing but formidable challenge. 
