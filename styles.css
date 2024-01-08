@@ -316,3 +316,26 @@ footer {
     font-weight: 700;
     color: whitesmoke;
 }
+
+.acks h1 {
+    font-family: Lastica;
+    text-align: center;
+    margin: 5rem auto 4rem;
+    color: #131FA8;
+}
+
+.acks td {
+    width: 50%;
+    padding: 0 4.5rem;
+    /* margin: auto 4rem;  */
+    /* margin: 10rem; */
+    font-family: serif;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+
+.acks a {
+    color: black;
+    /* text-decoration: underline; */
+}
