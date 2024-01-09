@@ -9,6 +9,11 @@
     src: url(resources/fonts/Interphase.ttf);
 }
 
+@font-face {
+    font-family: Arvo;
+    src: url(resources/fonts/Arvo.ttf);
+}
+
 .navbar-nav {
     flex-direction: row;
 }
@@ -270,7 +275,7 @@ nav.scrolled,check {
     text-align: center;
     background-size: contain;
     color: #5527F5;
-    font-family: Interphase;
+    font-family: Arvo;
 }
 
 #Services h3 {
@@ -303,6 +308,12 @@ footer {
     margin-left: 30px;
 }
 
+#letaRobo {
+    max-width: 30%;
+    border-radius: 10%;
+    float: right;
+    margin-left: 30px;
+}
 #kumbhDaanPic {
     max-width: 20%;
     float: left;
@@ -401,7 +412,7 @@ footer {
     text-align: center;
     background-size: contain;
     color: #5527F5;
-    font-family: Interphase;
+    font-family: Arvo;
 }
 
 #Approach h3 {
@@ -447,3 +458,37 @@ footer {
     color: black;
     /* text-decoration: underline; */
 }
+
+
+.feats {
+    padding-bottom: 3rem;
+}
+
+.feat-row {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 5rem;
+}
+
+.featpic:hover {
+    transform: scale(2);
+    transition-duration: 350ms;
+}
+
+#Feat {
+    /* padding: 3rem 2rem 0rem; */
+    text-align: center;
+    background-size: contain;
+    color: whitesmoke;
+    font-family: Arvo;
+    font-size: 1rem;
+}
+
+#Feat h3 {
+    color: black;
+    font-weight: 900;
+    font-size: 2rem;
+    /* margin-bottom: 3rem; */
+}
+

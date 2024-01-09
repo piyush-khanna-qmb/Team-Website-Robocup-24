@@ -133,41 +133,78 @@
                                 <h1>
                                     It's &nbsp; all &nbsp; possible
                                 </h1>
-
-                                <table>
-                                    <tr class="home-features-tr">
-                                        <td>
-                                            <h2>Here</h2>
-                                        </td>
-
-                                        <td>
-                                            <img class="feat-1" src="resources/robot-photos/hori.jpeg" alt="Robot horizontal photo" srcset="">
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr class="home-features-tr">
-                                        
-                                        <td>
-                                            <img class="feat-2" src="resources/robot-photos/verti.jpg" alt="Robot vertical photo" srcset="">
-                                        </td>
-                                        <td>
-                                            <h2>Here</h2>
-                                        </td>
-                                    </tr>
-                                </table>
-                                <table>
-                                    <tr class="home-features-tr">
-                                        <td>
-                                            <h2>And <br>
-                                                Here</h2>
-                                        </td>
-
-                                        <td>
-                                            <video class="feat-3" autoplay loop controls src="resources/robot-photos/vid.mp4"></video>
-                                        </td>
-                                    </tr>
-                                </table>
+                                <section id="Feat" >
+                                    <div class="feats">
+                                        <div class="feat-row">
+                                            <img class="featpic" id="veniPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>Face Recognition</h3>
+                                            <p>
+                                                Anushka excels in face recognition, employing cutting-edge computer vision to memorize faces in real-time with remarkable precision. This capability ensures accurate identification across diverse expressions and features, enabling personalized interactions in dynamic environments.
+                                                <br>
+                                                The implementation incorporates popular deep learning frameworks like TensorFlow and facial landmark detection algorithms to identify key points on a face, enhancing the efficiency and accuracy of face recognition.
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+        
+                                        <div class="feat-row">
+                                            <img class="featpic" id="pindPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>Speech Recognition</h3>
+                                            <p>
+                                                With a support of over 40 Indian languages and major foreign languages including English, Spanish, Japanese etc, Anushka boasts a huge Natural Language Processing unit.
+                                                <br><br>
+                                                The NLP module in Anushka employs cutting-edge techniques, including sentiment analysis and contextual understanding, allowing it to grasp the emotional undertones of user queries. This not only enhances the quality of responses but also enables Anushka to tailor its communication style based on the user's emotional state. 
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+        
+                                        <div class="feat-row">
+                                            <img class="featpic" id="kumbhDaanPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>Bot Operations Scheduling System</h3>
+                                            <p>
+                                                Bot Operations Scheduling System, or shortened to BOSS, is the heart of Anushka robot's development. It is a dedicated Pseduo-OS specially designed to merge Linux's fast instruction control and Windows' huge support for python libraries. By acting as a hypervisor, it makes the robot extremely fast and responsive to all its sensing units.
+                                                <br><br>
+                                                It also acts as a messenger queue between all the modules of the robot and can actively command a module in case one of the vital modules fails.
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+        
+                                        <div class="feat-row">
+                                            <img class="featpic" id="kumbhMelaPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>Object identification and Tracking</h3>
+                                            <p>
+                                                Anushka has a dedicatedly developed computer vision program which enables it to approximate distance without a depth-sensing camera.
+                                                <br><br>
+                                                Whether it's following a person as they move around a room or tracking a specific object, Anushka's Object Tracking enhances its engagement capabilities. This feature is particularly valuable in environments where the robot needs to navigate and interact with its surroundings actively. 
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+        
+                                        <div class="feat-row">
+                                            <img class="featpic" id="gangaAartiPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>Cultural Integration with Vedic Principles</h3>
+                                            <p>
+                                                The entire system design and brain's response system of Anushka has been built after a thorough research on the Vedic views of human mind's architecture.
+                                                <br><br>
+                                                This integration aims to align the robot's decision-making processes with the holistic understanding of the mind presented in Vedic philosophy. Components such as 'Chitta', 'Manas', 'Ahankaram' and 'Buddhi' have been incorporated into the architecture of robot's Intelligence.
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+        
+                                        <div class="feat-row last-service-row">
+                                            <img class="featpic" id="pushpanjaliPic" src="resources/team-members/me.jpg" alt="">
+                                            <h3>IoT and Automation</h3>
+                                            <p>
+                                                Anushka can integrate itself seamlessly into smart home, autonomously managing appliances like fans and bulbs based on predefined conditions. 
+                                                <br><br>
+                                                Anushka also has the ability to completely automate the task of application writing and printing by performing print jobs from remote printers. 
+                                                <br>
+                                                She can also make phone calls as well as send and recieve Whatsapp messages autonomously.
+                                            </p>
+                                        </div>
+                                        <div style="clear:both"></div>
+                                    </div>
+                                </section>
+                                
                             </div>
                         </section>
 
@@ -243,39 +280,48 @@
                                     <img class="approachPic" id="veniPic" src="resources/approach/rob1.png" alt="">
                                     <h3>Single Camera Depth Aproximation</h3>
                                     <p>
-                                        The robot uses a novel approach for distance approximation using computer vision. This is helpful in case where there is no other way of depth approximation by ultrasonic waves or Infrared waves sensor system.
-                                        <br>
-                                        This technique also enables the robot to tag the person to be followed as well as maintain a formal distance from him/her.
+                                        The robot uses a novel approach for distance approximation using computer vision. In this approach, the robot is able to efficiently approximate the distance from an object or person by analysing its image and comparing it to the size of the respective standard object or body part.
+                                        <br><br>
+                                        This is helpful in case where there is no other way of depth approximation by ultrasonic waves or Infrared waves sensor system. This technique also enables the robot to tag the person to be followed as well as maintain a formal distance from him/her.
                                     </p>
                                 </div>
                                 <div style="clear:both"></div>
 
                                 <div class="approach-row">
                                     <img class="approachPic" id="pindPic" src="resources/approach/rob3.png" alt="">
-                                    <h3>Speech Recognition</h3>
+                                    <h3>Speech Question Cache-ing</h3>
                                     <p>
                                         A novel approach for ’question cache-ing’ allows the robot to store the questions and their answers locally based on their frequency of being asked in normal conversations.
-                                        <br>
-                                        By utilizing NLP, Anushka can interpret and extract meaning from spoken or written text, enabling it to understand user commands, generate appropriate responses, and engage in natural language conversations.
+                                        <br> <br>
+                                        Thus, in case of repeating questions, the robot doesn't need to necessarily scrap answers from web but fetch it from local question cache. By utilizing NLP, Anushka can interpret and extract meaning from spoken or written text, enabling it to understand user commands, generate appropriate responses, and engage in natural language conversations.
                                     </p>
                                 </div>
                                 <div style="clear:both"></div>
 
                                 <div class="approach-row">
                                     <img class="approachPic" id="kumbhDaanPic" src="resources/approach/rob4.png" alt="">
-                                    <h3> Face Recognition</h3>
+                                    <h3>Facial Feature Forgetfulness</h3>
                                     <p>
                                         Novel approach for identifying and prioritizing humans in real-time has been applied to the face recognition system to mimic human behavior. The face recognition system uses deep learning Convolutional Neural Network for first creating face embeddings and storing them in local database.
-                                        <br>
+                                        <br><br>
                                         This database is routinely checked for repeating faces and their mapped names. Priority is given to people based on their number of times meeting the robot and time since last meeting. On a routine-base dumping, faces are ”forgotten” if their priority is less, that is, the robot has met the person only once/twice and long time ago.
                                     </p>
                                 </div>
                                 <div style="clear:both"></div>
+
+                                <div class="approach-row">
+                                    <img class="approachPic" id="letaRobo" src="resources/approach/rob2.png" alt="">
+                                    <h3>Vedic Weave</h3>
+                                    <p>
+                                        The entire system design and brain's response system of Anushka has been built after a thorough research on the Vedic views of human mind's architecture.
+                                        <br> <br>
+                                        Novel prioritization techniques have been employed in the robot, segregating each data unit as a portion to be remembered or discarded according to the robot's discretion. This quadriplex architecture comes from the vedic texts, and named 'Chitta', 'Manas', 'Ahankaram', 'Buddhi'.
+                                    </p>
+                                </div>
                             </div>
                         </section>
 
                         <section>
-                            <!--? RESTART FROM HERE  -->
                             <div class="acks">
                                 <h1>
                                     Acknowledgements
