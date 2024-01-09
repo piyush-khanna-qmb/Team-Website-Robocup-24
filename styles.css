@@ -509,6 +509,10 @@ footer {
     height: auto;
 }
 
+.resources {
+    background: radial-gradient(circle at 50% 50%, #131FA8, #5527F5, #041069);
+}
+
 #pricing {
     padding: 7% 7%;
     text-align: center;
