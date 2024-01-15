@@ -266,11 +266,16 @@ nav.scrolled,check {
     width: 70%;
     margin: auto;
     text-align: left;
-    padding-bottom: 10rem;
+    padding-bottom: 6rem;
+}
+
+.skillpic {
+    border:#041069 solid 1px;
+    border-style: double;
 }
 
 .skillpic:hover {
-    transform: scale(2);
+    transform: scale(1.4);
     transition-duration: 350ms;
 }
 
@@ -286,6 +291,7 @@ nav.scrolled,check {
     color: #041069;
     font-weight: 900;
     font-size: 2rem;
+    padding-top: 2rem;
     /* margin-bottom: 3rem; */
 }
 #Services p {
@@ -293,8 +299,8 @@ nav.scrolled,check {
 }
 
 #veniPic {
-    max-width: 15%;
-    border-radius: 100%;
+    max-width: 20%;
+    border-radius: 90%;
     float: left;
     margin-right: 30px;
 }
@@ -306,14 +312,14 @@ footer {
 }
 
 #pindPic {
-    max-width: 25%;
-    border-radius: 100%;
+    max-width: 20%;
+    border-radius: 90%;
     float: right;
     margin-left: 30px;
 }
 
 #letaRobo {
-    max-width: 30%;
+    max-width: 20%;
     border-radius: 10%;
     float: right;
     margin-left: 30px;
@@ -322,26 +328,26 @@ footer {
     max-width: 20%;
     float: left;
     margin-right: 30px;
-    border-radius: 100%;
+    border-radius: 90%;
 }
 
 #kumbhMelaPic {
-    max-width: 25%;
-    border-radius: 100%;
+    max-width: 20%;
+    border-radius: 90%;
     float: right;
     margin-left: 30px;
 }
 
 #gangaAartiPic {
-    max-width: 15%;
+    max-width: 20%;
     float: left;
     margin-right: 30px;
-    border-radius: 100%;
+    border-radius: 90%;
 }
 
 #pushpanjaliPic {
-    max-width: 25%;
-    border-radius: 100%;
+    max-width: 20%;
+    border-radius: 90%;
     float: right;
     margin-left: 30px;
 }
